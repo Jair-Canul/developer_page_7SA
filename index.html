@@ -23,7 +23,7 @@
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
             <a href="#"> Inicio </a>
-            <a href="#"> Sobre Mi </a>
+            <a href="#"> Sobre Mí </a>
             <a href="#"> Clientes </a>
             <a href="#"> Contacto </a>
         </nav>
@@ -67,40 +67,44 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, quam libero distinctio quibusdam doloremque labore, aperiam fugiat quaerat sed odit fugit illum! Explicabo recusandae cum blanditiis harum reprehenderit repellat perspiciatis?</p>
         </section>
         </div><!--cierre de div.servicios-->
-    </main>
 
     <section>
         <h2>Contactos</h2>
-        <form>
+        <form class="formulario">
             <fieldset>
                 <legend>Llena tus datos para establecer contacto</legend>
-                <div>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Tu nombre">
+                <div class="contenedor-campos">
+                   
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Tu nombre">
+                    </div>
+
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input type="tel" placeholder="Tu teléfono">
+                    </div>
+
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input type="email" placeholder="Tu email">
+                    </div>
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea ></textarea>
+                    </div>
+                </div><!--cierre de div.contenedor-campos-->
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
                 </div>
 
-                <div>
-                    <label>Teléfono</label>
-                    <input type="tel" placeholder="Tu teléfono">
-                </div>
-
-                <div>
-                    <label>Correo</label>
-                    <input type="email" placeholder="Tu email">
-                </div>
-
-                <div>
-                    <label>Mensaje</label>
-                    <textarea ></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
             </fieldset>
         </form>
     </section>
-    <footer>
+
+    </main>
+    
+    <footer class="footer">
     <p>Todos los derechos reservados © Jair David Canul Serralta </p>
     </footer>
 </body>
