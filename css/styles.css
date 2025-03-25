@@ -277,8 +277,8 @@ body{
         grid-template-rows: auto auto 20rem;         
     }
     
-    .campo::nth-child(3), /*Correo*/
-    .campo::nth-child(4)/*Mensaje*/{
+    .campo:nth-child(3), /*Correo*/
+    .campo:nth-child(4)/*Mensaje*/{
         /*Ve de la columna 1 a la 3*/
         grid-column: 1/3;
 
